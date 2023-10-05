@@ -6,6 +6,7 @@ import android.content.Intent
 
 class AlarmBroadcastReceiver : BroadcastReceiver() {
     companion object {
+
         val ALARMKEY = "KEY"
         val ALARMSTRAT = "START"
         val ALARMSTOP = "STOP"
